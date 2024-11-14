@@ -755,7 +755,8 @@ h3.my-profession
     }
     .home,
     .portfolio,
-    .service
+    .service,
+    .contact
     {
         min-height: 50vh;
     }
