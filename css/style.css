@@ -739,9 +739,7 @@ h3.my-profession
         max-width: 50%;
     }
     .contact .contact-form .col-6,
-    .contact .contact-info-item,
     .about .about-content .skills,
-    .contact .contact-info-item,
     .about .about-content .experience,
     .about .about-content .education,
     .home .home-info
@@ -754,6 +752,12 @@ h3.my-profession
         display: block;
         top: 50px;
         left: 300px;
+    }
+    .home,
+    .portfolio,
+    .service
+    {
+        min-height: 50vh;
     }
 }
 @media (max-width:767px)
